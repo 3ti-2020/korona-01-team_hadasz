@@ -1,0 +1,80 @@
+.body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    margin: auto 0;
+    font-family: sans-serif;
+    grid-template-columns: 25% 25% 25% 25%  ;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    "a a a a"
+    "b c d e"
+    "b c d e"
+    "b c d e";
+}
+
+.item{
+    background-color: rgb(68, 14, 5);
+   border:  3px solid rgb(34, 1, 1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.a{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.b{
+    grid-area: b;
+    padding: 150px;
+}
+
+.c{
+    grid-area: c;
+    padding: 150px;
+}
+
+.d{
+    grid-area: d;
+    padding: 150px;
+}
+
+.e{
+    grid-area: e;
+    padding: 150px;
+}
+
+
+
+.button{
+    border: none;
+    outline: none;
+    background: none;
+    border: 3px solid rgb(34, 1, 1);
+    padding: 20px;
+    width: 210px;
+    font-size: 20px;
+    background: rgb(202, 59, 34);
+    color: inherit;
+    text-decoration:none;    
+    
+}
+
+.button:active{
+    background: rgb(107, 26, 12);
+    transform: translateY(4px);
+    
+}
+
+.img{
+    border: 5px solid rgb(34, 1, 1);
+}
+
