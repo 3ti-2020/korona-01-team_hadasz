@@ -1,0 +1,123 @@
+.body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    margin: auto 0;
+    font-family: sans-serif;
+    grid-template-columns: 25% 25% 25% 25%  ;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    "a a a a"
+    "b b b b"
+    "c c c c"
+    "d d d d"
+    "e e e e"
+    "f f f f";
+}
+
+.item{
+    background-color: rgb(68, 14, 5);
+   border:  3px solid rgb(34, 1, 1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   
+  
+  
+}
+
+.a{
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.b{
+    grid-area: b;
+    
+    justify-content: start;
+    
+    
+    
+    
+    
+}
+
+.c{
+    grid-area: c;
+    align-items: center;
+    justify-content: start;
+    
+   
+}
+
+
+
+.d{
+    grid-area: d;
+    align-items: center;
+    justify-content: start;
+    
+    
+}
+
+.e{
+    grid-area: e;
+    
+    align-items: center;
+    justify-content: start;
+    
+    
+}
+
+.f{
+    grid-area: f;
+    align-items: center;
+    justify-content: start;
+    
+    
+
+}
+
+
+.button{
+    border: none;
+    outline: none;
+    background: none;
+    border: 3px solid rgb(34, 1, 1);
+   font-size: 20px;
+   padding: 5px;
+    background: rgb(202, 59, 34);
+    color: inherit;
+    text-decoration:none;    
+    
+}
+
+.button:active{
+    background: rgb(107, 26, 12);
+    transform: translateY(4px);
+    
+}
+
+.img{
+
+padding: 20px;
+   
+    
+}
+
+.opis{
+    font-size: 25px;
+}
+
+
+.first{
+    font-size: 40px;
+    color: tomato;
+}
