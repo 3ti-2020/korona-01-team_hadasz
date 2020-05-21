@@ -66,6 +66,48 @@
     
 }
 
+.d2{
+    grid-area: d;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(94, 94, 5);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   border:  3px solid rgb(34, 1, 1);
+    
+    
+}
+
+.b2{
+    grid-area: b;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(107, 121, 255);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   border:  3px solid rgb(34, 1, 1);
+    
+    
+}
+
+.c2{
+    grid-area: c;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(247, 95, 95);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   border:  3px solid rgb(34, 1, 1);
+    
+    
+}
+
 
 
 
