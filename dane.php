@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -5,6 +6,11 @@
 </head>
 
 <body class="body">
+
+<div class="a"> <h1>BRONIE WOJOWNIKA</h1>
+
+</div>
+
 <div class="container">
     
 <?php
@@ -21,7 +27,7 @@ $sql = "SELECT * FROM bronie_jednoręczne";
 $result = $conn->query($sql);
    
 
-    
+echo("<h1>bronie jednoręczne</h1>");   
 echo("</h1>");
 echo("<table class='tabelka'>");
 echo("<tr>
@@ -46,7 +52,7 @@ $sql = "SELECT * FROM bronie_dwuręczne";
 $result = $conn->query($sql);
    
 
-    
+echo("<h1>bronie dwuręczne</h1>");   
 echo("</h1>");
 echo("<table class='tabelka'>");
 echo("<tr>
