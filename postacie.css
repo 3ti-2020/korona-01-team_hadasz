@@ -121,3 +121,23 @@ padding: 20px;
     font-size: 40px;
     color: tomato;
 }
+
+.buttona{
+    border: none;
+    outline: none;
+    background: none;
+    border: 3px solid rgb(34, 1, 1);
+   font-size: 20px;
+   padding: 30px;
+    background: rgb(202, 59, 34);
+    color: inherit;
+    text-decoration:none;    
+   margin: 200px;
+    
+}
+
+.buttona:active{
+    background: rgb(107, 26, 12);
+    transform: translateY(4px);
+    
+}
